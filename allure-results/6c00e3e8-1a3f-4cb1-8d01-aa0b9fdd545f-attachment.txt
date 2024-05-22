@@ -1,0 +1,28 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'FormTest.validateFormCreation'                                                  
+                                 Test Description: 'Validate that the user can create an new form from scratch'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://portal.form.io/#/auth" @18-05-2024 23:04:55.0286 PM
+[ReportManager] Initial URL: "about:blank" @18-05-2024 23:04:55.0327 PM
+[ReportManager] Navigate to url "https://portal.form.io/#/auth". @18-05-2024 23:05:01.0528 PM
+[ReportManager] Text cleared Using Native Clear @18-05-2024 23:05:02.0358 PM
+[ReportManager] Type "mostafa.elkholy.se@gmail.com" into "Email". @18-05-2024 23:05:02.0429 PM
+[ReportManager] Text cleared Using Native Clear @18-05-2024 23:05:02.0708 PM
+[ReportManager] Type "Abcd123456@" into "Password". @18-05-2024 23:05:02.0811 PM
+[ReportManager] Moved the mouse to the middle of the element. @18-05-2024 23:05:03.0084 PM
+[ReportManager] Click "LOG IN". @18-05-2024 23:05:03.0165 PM
+[ReportManager] Waiting for element to be present; elementLocator "By.xpath: //span[contains(text(),'Projects')]", isExpectedToBeVisible"true"... @18-05-2024 23:05:03.0174 PM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: //span[contains(text(),'Projects')])" against "By.xpath: //span[contains(text(),'Projects')]". @18-05-2024 23:05:04.0296 PM
+[ReportManager] Target URL: "https://portal.form.io/#/project/6642150eae25b7d59e91a6d7/form/6642150fae25b7d59e91a6fe/edit" @18-05-2024 23:05:04.0300 PM
+[ReportManager] Initial URL: "https://portal.form.io/#" @18-05-2024 23:05:04.0367 PM
+[ReportManager] Navigate to url "https://portal.form.io/#/project/6642150eae25b7d59e91a6d7/form/6642150fae25b7d59e91a6fe/edit". @18-05-2024 23:05:04.0465 PM
+[ReportManager] Failed to Drag and drop "Start point: (254, 312), End point: (254, 312)" against "By.xpath: //span[@data-type="textfield"]". @18-05-2024 23:05:16.0023 PM
+[ReportManager] Successfully created attachment 'Screenshot - Drag and drop_23-05-14-990_18052024' @18-05-2024 23:05:16.0030 PM
+[ReportManager] Successfully created attachment 'Drag and drop - page snapshot' @18-05-2024 23:05:16.0041 PM
+[ReportManager] Failed to Drag and drop against "By.xpath: //span[@data-type="textfield"]". Root cause: "java.lang.AssertionError: Failed to Drag and drop "Start point: (254, 312), End point: (254, 312)" against "By.xpath: //span[@data-type="textfield"]"." @18-05-2024 23:05:19.0687 PM
+[ReportManager] Successfully created attachment 'Screenshot - Drag and drop_23-05-18-389_18052024' @18-05-2024 23:05:19.0693 PM
+[ReportManager] Successfully created attachment 'Drag and drop - page snapshot' @18-05-2024 23:05:19.0702 PM
+[ReportManager] Successfully created attachment 'Element Action Exception - Drag and drop - Stacktrace' @18-05-2024 23:05:19.0708 PM

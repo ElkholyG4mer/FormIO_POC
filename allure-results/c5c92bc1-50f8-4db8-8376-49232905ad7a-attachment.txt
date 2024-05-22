@@ -1,0 +1,207 @@
+[INFO ] 2024-05-18 23:04:49.324 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.2.20240411[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-18 23:04:49.338 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-05-18 23:04:49.376 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-05-18 23:04:49.376 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-05-18 23:04:49.422 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-05-18 23:04:50.055 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2024-05-18 23:04:50.197 [main] Utils - [TestNG] Running:
+  C:\Users\Kholio\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+[INFO ] 2024-05-18 23:04:50.387 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-18 23:04:50.547 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-05-18 23:04:50.580 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-05-18 23:04:50.941 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                                'FormTest.setup'                                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-18 23:04:50.990 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-05-18 23:04:51.080 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\Kholio\IdeaProject..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-05-18 23:04:51.086 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-05-18 23:04:51.086 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2024-05-18 23:04:54.450 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-05-18 23:04:54.531 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[WARN ] 2024-05-18 23:04:54.846 [main] ReportManager - May 18, 2024 11:04:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-05-18 23:04:54.847 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+[INFO ] 2024-05-18 23:04:54.880 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-05-18 23:04:54.897 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[DEBUG] 2024-05-18 23:04:55.191 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-05-18 23:04:55.197 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-05-18 23:04:55.197 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-05-18 23:04:55.199 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-05-18 23:04:55.199 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-05-18 23:04:55.200 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.202 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.203 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.203 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.203 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.203 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.203 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.203 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-05-18 23:04:55.203 [] headers - >> Accept: */*
+[DEBUG] 2024-05-18 23:04:55.203 [] headers - >> Host: api.github.com
+[DEBUG] 2024-05-18 23:04:55.203 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-05-18 23:04:55.203 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-05-18 23:04:55.203 [] headers - >> Accept-Encoding: gzip,deflate
+[INFO ] 2024-05-18 23:04:55.222 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                  Test Method: 'FormTest.validateFormCreation'                                                  
+                                 Test Description: 'Validate that the user can create an new form from scratch'                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-18 23:04:55.287 [main] ReportManager - Target URL: "https://portal.form.io/#/auth"
+[INFO ] 2024-05-18 23:04:55.327 [main] ReportManager - Initial URL: "about:blank"
+[WARN ] 2024-05-18 23:04:55.345 [main] ReportManager - May 18, 2024 11:04:55 PM org.openqa.selenium.bidi.Connection send
+[WARN ] 2024-05-18 23:04:55.345 [main] ReportManager - INFO: -> {
+[WARN ] 2024-05-18 23:04:55.345 [main] ReportManager -   "params": {
+[WARN ] 2024-05-18 23:04:55.345 [main] ReportManager -     "url": "https:\u002f\u002fportal.form.io\u002f#\u002fauth",
+[WARN ] 2024-05-18 23:04:55.345 [main] ReportManager -     "wait": "complete",
+[WARN ] 2024-05-18 23:04:55.345 [main] ReportManager -     "context": "E47EC221990ACFE5E389F973DA8828EA"
+[WARN ] 2024-05-18 23:04:55.345 [main] ReportManager -   },
+[WARN ] 2024-05-18 23:04:55.345 [main] ReportManager -   "method": "browsingContext.navigate",
+[WARN ] 2024-05-18 23:04:55.346 [main] ReportManager -   "id": 1
+[WARN ] 2024-05-18 23:04:55.346 [main] ReportManager - }
+[DEBUG] 2024-05-18 23:04:55.497 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.504 [] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.504 [] wire -  << "Date: Sat, 18 May 2024 20:04:55 GMT[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.504 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "ETag: W/"eb81a86056557e148808d85149dd270fcf7bb270ab393ed3ad576696057fe6ff"[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "Last-Modified: Thu, 11 Apr 2024 15:11:51 GMT[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.505 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "X-RateLimit-Remaining: 54[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "X-RateLimit-Reset: 1716065516[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "X-RateLimit-Used: 6[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "Content-Length: 981[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.506 [] wire -  << "X-GitHub-Request-Id: 63B8:31673D:211A5FA8:21461647:664909E7[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.507 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-05-18 23:04:55.509 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-05-18 23:04:55.509 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-05-18 23:04:55.510 [] headers - << Server: GitHub.com
+[DEBUG] 2024-05-18 23:04:55.510 [] headers - << Date: Sat, 18 May 2024 20:04:55 GMT
+[DEBUG] 2024-05-18 23:04:55.510 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-05-18 23:04:55.510 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-05-18 23:04:55.510 [] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << ETag: W/"eb81a86056557e148808d85149dd270fcf7bb270ab393ed3ad576696057fe6ff"
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Last-Modified: Thu, 11 Apr 2024 15:11:51 GMT
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-RateLimit-Remaining: 54
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-RateLimit-Reset: 1716065516
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-RateLimit-Used: 6
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << Content-Length: 981
+[DEBUG] 2024-05-18 23:04:55.511 [] headers - << X-GitHub-Request-Id: 63B8:31673D:211A5FA8:21461647:664909E7
+[DEBUG] 2024-05-18 23:04:55.532 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-05-18 23:04:55.533 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad][0x96][0x8f]k[0xdb]8[0x14][0xc7][0xff][0x15][0xe3]1[0xe]B#[0xc7][0xce][0xcf][0x1a][0xc6][0xee][0xba][0xb4][[0xe1][0xda][0xb2][[0xd9][0xc1][0xed]F[0x90][0xed][0x17][[0x9b],i[0x92][0x9c]^[0x16][0xfa][0xbf]"
+[DEBUG] 2024-05-18 23:04:55.534 [] wire -  << "[0xdf][0x93][0xed][0x86][0xc4][0xdc][0xa5]c[0x9][0x81]Dv[0xa4][0xcf]{z?[0xbe][0xd2][0xc6][0xaf]4[0xf7]c[0xbf][0xb0]V[0x99]8[0x8][0xa8]b$g[0xb6][0xa8][0x12][0x92][0xca]2[0xd0][0xa0][0xa4][0x9]>[0x14]ti[0xdf][0xbd][0xf]>[0xbc][0xfb][0xed][0xea]~qy[0xfb][0xf6][0xfa][0xf6][0x12][0xff][0xe2]@[\r][0x98] [0x1c][0xf][0xa6][0xd3]Y[0x14]N[0xfd]3[0x9f][0x1a][0x3][0xd6],N[0xc7][0xc][0x1a]"[0xa2]+[0xc5]%[0xcd]:[0xe8][0xe6][0xa5][0xf9]i[0x97][[0xfc][0xe6][0xb5][0xa0]%[0x9c]q[0x9a][0x0]D[[0x85]-y[0xc7][0xd2]NP[0xe][0x87][0xc3][0xd2]<[0x98][0x91][0x88]D[0x83]h4[0x18][0x85]![0xe2]X[0xe6][0xc7][0xdb](a[0x90]*[H[0xed][0xc7][0x1b][0x9f][0xcb][0x9c][0x9][0x8c]~[0x3][0xef][0xd3][0xd4]2)[0xcc][0xa7]D[0xda][0xcf][0xed][0xb2]Q8;[0x9f]E[0xb3][0xe8][0xcc][0x17]2[0x83][0x85]#[0xf9]7[0xf3][0x9b][0xc9][0xfb][0xf2]|p;[0xbf][0x1c][0xdd][0xdd][0xe7][0xeb][0xbb][0xf9][0xf5]+[0x17][0xfb][0x15][0xb5]Twc_[0xbf]|[\n]"
+[DEBUG] 2024-05-18 23:04:55.534 [] wire -  << "Pe@[0xa7]RX[0x10][0xb6]N/[0x13][0x98][0xbd][0xe1]d[0xf6]z[0xf5]j[0x84][0x84]\[0xb7][0x8c][0xda][0x8c][0x8b][0xf9][0xa1][0xda]p0[0x13][0xec][0xbb][0xfe]r|[0x81][0xce][0xbf][0x1c][0xcf][0x9f][\r]"U[0xaa][0xbb][0x18][0xd7],%[0xe7][0xf2][0x1][0xb9][0xdd]m[0xec][0x97][0xe5]A[0xd3][0xc1][0x16][0xb2][0x5]2[0x91][0x1f][0xf]D[0xc8]&[0x90][0xb6][0x0][0x8c]1n[0xdd][0xd5]I[0xce][0xcc]s[0xd5]~[0xd8][0xd5][0x1a][0xb0][0xc1] [0x1a][0x8b][0xb9]uH[0x83][0xe9][0xd2][0xd0][0xad][0xf3]N[[0x1e][0x86][0xb6][0x8]t[0xf6]A[0xa0][0x9f][0x9b][0xba][0x8b]kv[0x95][0x98]T3UW[0xd9]1[0x1][0xd9][0x3]!X[0xea][0x9c][\n]"
+[DEBUG] 2024-05-18 23:04:55.534 [] wire -  << "[0xf6][0x9d][0x1e][\r]F[0x90]A^-;[0xc7]8X[0x3][0x10][0x4]+,[0xf5][0xa3]H[\r]a[0x13]([0xcd]V4][0xbb]0jH[0x81][0xad]0G[0xc7][0xd3];([0x84][0xdb][0xb5][0x2]l[0xbe][0xb]i][0xc2][0x98][0x85][0x5][0xcd]J'[0x12]K[0xca][\r]<[0xee][0xea][0xc0][0x1f][0x97][0x8b][0xaf][0xf][0xf3][0xbb]7o[0xe1]~bF[0xd7][0x8b][0xdf][0xaf][0x94][0x3][0xd0]|[0xe1][0xd4][0xc]![0x1d][0x19][0xc2][0xca][0xca][0xc1].[0xb0][0xf1]Kf[0x99])pFI[0x11][0x8d][0xcc][0xff][0x9c][0x9f]i[0x94][0xfd][0xd6][0xf0][0x99][0xaf]4[0xb4][0x92][0xbf]}[0x95]j[0xa0][0x16][0xe3]@q[0x96][0xef][0xf4][0xae]?[0x18][0xf5][0xc3][0xf0]>[0x1c][0xc7]a[0x18]G[0xc3][0xbf][0x10][0xad][0xaa][0x84][0xa3][0xad][0xff][0x9d]5[0xe][0xdd][0xac]V[0xe5][0xe3]O[0x9f][0xdd][0x6]tByW[0xfc]`j[0xd7]wE[0xf8];SGa[0xdb][0xf5]]l"[0xb3]5[0xee][0xfe][0xc5][0xb][0xef][0xcf][0x82][0xda]_[0x8c][0xf7][0xa6][0xa0]"[0x87][0xec]o[0xd1][0xf3].[0xaa]Ry[0x18]n[0x92]K[0x99]s [0xa9]^++[0x89]e[0xe2]k[0xec][0xbe][0xbc][0xa5][0x96][0xa5][0x17][0x92]0"[0x3][0xcf]J7[0x1a][0xe2](Y{[0xbf]f[0xa0]@d[0x14][0xc5][0xd4]c[0xc2]{:[0x9d][0x9f];[0x84]T[0xc5]9*[0xfa]l[0xe0][0xac]W[\n]"
+[DEBUG] 2024-05-18 23:04:55.534 [] wire -  << "[0xf5]<[0x3][0x7]N[0xb1][0xb]4[0xe5][0x9e][0x91][0x82][0xba][0x2]k[0xc]s[0xc8][0xb1][0xa2]=iLm[0xf2]F[0x16]4[0xc1]/[0x6]?c2[0xdc]n[0x18]{[0x98]PE[0xd3][0x2]HI[0xb1][0xff][0x88][0xe2][0x15][0x1e]s&[0xae][0x9f][0xfa]FV:[0x85]~[0xf3][0xb2]qdH[0xdc][0xb6][0xd1]O7[0x8]O[0xb0][0xff][0xe1][0xd6][0x19]&[0x9f][0xee][0x6][0x89][0x14],[0xa7]:e4~[0x80]$[0xc3]v[0x6]]RAs[0xd0][0x8d][0x17]c2m[0xbc][0x18][0x93][0xd9]I[0xb2][0x10][0xed][0xd5]@[0xc9]R-[0x8d]\Zb[0xbe]a'k4[0x1f][0x97][0x6][0xc7][0xfd]/Y[0x92][0xb6][0xa5][0x10][0x91][0x9][0x9][0xc9][0x17][\r]aX[0x17]D[0xe4]|j[0x9e][0xfb][0xd8][0x80]+[0x6][0xf]'[0x8][0xcf]h/W[0x16][0x8c][0x15]y[0xdc][0xfc]4~L[0xc9]y[0x13][0x8a])[0x9][0x7]'[0xc9][0xc8]t7#[0xdf]Pn,%[0xd8][0xe4][0x95][0x86][0xb8][0xf9][0xe9]'[0xd8][\n]"
+[DEBUG] 2024-05-18 23:04:55.534 [] wire -  << "u?[0xe0][0xd5]i[0xd2]X[0xc7][0x91]K[0xc9][0xf1][0xfd]0q[0xd6][0xaf][0xd8]?[0xde]Gf*[0xca]?R[0xce][0xb2][0xe6][0xb0][0xf2][0x98]1[0x15][0x9c][0xa0][0xfe][0xcf][0x9d][0x89]][0xc1]=[0x9e]y[0x8e]=[0xe5]>[0xbd][0xde][0x15][0xf6]u+,xe[0xec][0xf5][0xe2][0x1f]V[0x4]T[0x1f]E5[0xec][0xa8][0xd6] "[0x4][0xb]|[0xef][0x82]Z[0xa2]>[0xd4]w[0x82]TV[0x2][0xc5]<z[0xfc][0x17][0x13][0xa2]n*[0x18][0xc][0x0][0x0]"
+[DEBUG] 2024-05-18 23:04:55.535 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-05-18 23:04:55.664 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4f2882e
+[DEBUG] 2024-05-18 23:04:55.664 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-05-18 23:04:56.695 [] ReportManager - Engine Update check done for the day. 👍
+[WARN ] 2024-05-18 23:05:01.520 [BiDi Connection] ReportManager - May 18, 2024 11:05:01 PM org.openqa.selenium.bidi.Connection handle
+[WARN ] 2024-05-18 23:05:01.522 [BiDi Connection] ReportManager - INFO: <- {"id":1,"result":{"navigation":"87DBA762C20F881C82818FC4CCE04719","url":"https://portal.form.io/#/auth"},"type":"success"}
+[INFO ] 2024-05-18 23:05:01.528 [main] ReportManager - Navigate to url "https://portal.form.io/#/auth".
+[DEBUG] 2024-05-18 23:05:02.358 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-05-18 23:05:02.429 [main] ReportManager - Type "mostafa.elkholy.se@gmail.com" into "Email".
+[DEBUG] 2024-05-18 23:05:02.708 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-05-18 23:05:02.812 [main] ReportManager - Type "Abcd123456@" into "Password".
+[INFO ] 2024-05-18 23:05:03.084 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-05-18 23:05:03.165 [main] ReportManager - Click "LOG IN".
+[INFO ] 2024-05-18 23:05:03.174 [main] ReportManager - Waiting for element to be present; elementLocator "By.xpath: //span[contains(text(),'Projects')]", isExpectedToBeVisible"true"...
+[INFO ] 2024-05-18 23:05:04.296 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.xpath: //span[contains(text(),'Projects')])" against "By.xpath: //span[contains(text(),'Projects')]".
+[INFO ] 2024-05-18 23:05:04.301 [main] ReportManager - Target URL: "https://portal.form.io/#/project/6642150eae25b7d59e91a6d7/form/6642150fae25b7d59e91a6fe/edit"
+[INFO ] 2024-05-18 23:05:04.367 [main] ReportManager - Initial URL: "https://portal.form.io/#"
+[WARN ] 2024-05-18 23:05:04.377 [main] ReportManager - May 18, 2024 11:05:04 PM org.openqa.selenium.bidi.Connection send
+[WARN ] 2024-05-18 23:05:04.377 [main] ReportManager - INFO: -> {
+[WARN ] 2024-05-18 23:05:04.377 [main] ReportManager -   "params": {
+[WARN ] 2024-05-18 23:05:04.377 [main] ReportManager -     "url": "https:\u002f\u002fportal.form.io\u002f#\u002fproject\u002f6642150eae25b7d59e91a6d7\u002fform\u002f6642150fae25b7d59e91a6fe\u002fedit",
+[WARN ] 2024-05-18 23:05:04.377 [main] ReportManager -     "wait": "complete",
+[WARN ] 2024-05-18 23:05:04.378 [main] ReportManager -     "context": "E47EC221990ACFE5E389F973DA8828EA"
+[WARN ] 2024-05-18 23:05:04.378 [main] ReportManager -   },
+[WARN ] 2024-05-18 23:05:04.378 [main] ReportManager -   "method": "browsingContext.navigate",
+[WARN ] 2024-05-18 23:05:04.378 [main] ReportManager -   "id": 2
+[WARN ] 2024-05-18 23:05:04.379 [main] ReportManager - }
+[WARN ] 2024-05-18 23:05:04.455 [BiDi Connection] ReportManager - May 18, 2024 11:05:04 PM org.openqa.selenium.bidi.Connection handle
+[WARN ] 2024-05-18 23:05:04.457 [BiDi Connection] ReportManager - INFO: <- {"id":2,"result":{"navigation":null,"url":"https://portal.form.io/#/project/6642150eae25b7d59e91a6d7/form/6642150fae25b7d59e91a6fe/edit"},"type":"success"}
+[INFO ] 2024-05-18 23:05:04.465 [main] ReportManager - Navigate to url "https://portal.form.io/#/project/6642150eae25b7d59e91a6d7/form/6642150fae25b7d59e91a6fe/edit".
+[DEBUG] 2024-05-18 23:05:11.938 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:53491<->140.82.121.6:443 closed
+[INFO ] 2024-05-18 23:05:16.024 [main] ReportManager - Failed to Drag and drop "Start point: (254, 312), End point: (254, 312)" against "By.xpath: //span[@data-type="textfield"]".
+[INFO ] 2024-05-18 23:05:16.030 [main] ReportManager - Successfully created attachment 'Screenshot - Drag and drop_23-05-14-990_18052024'
+[INFO ] 2024-05-18 23:05:16.041 [main] ReportManager - Successfully created attachment 'Drag and drop - page snapshot'
+[INFO ] 2024-05-18 23:05:19.688 [main] ReportManager - Failed to Drag and drop against "By.xpath: //span[@data-type="textfield"]". Root cause: "java.lang.AssertionError: Failed to Drag and drop "Start point: (254, 312), End point: (254, 312)" against "By.xpath: //span[@data-type="textfield"]"."
+[INFO ] 2024-05-18 23:05:19.693 [main] ReportManager - Successfully created attachment 'Screenshot - Drag and drop_23-05-18-389_18052024'
+[INFO ] 2024-05-18 23:05:19.702 [main] ReportManager - Successfully created attachment 'Drag and drop - page snapshot'
+[INFO ] 2024-05-18 23:05:19.708 [main] ReportManager - Successfully created attachment 'Element Action Exception - Drag and drop - Stacktrace'
+[INFO ] 2024-05-18 23:05:19.732 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: validateFormCreation'
+[INFO ] 2024-05-18 23:05:19.732 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Finished Execution of Test Method: 'FormTest.validateFormCreation'                                       
+                                 Test Description: 'Validate that the user can create an new form from scratch'                                 
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-18 23:05:19.902 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                               'FormTest.tearDown'                                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[WARN ] 2024-05-18 23:05:19.915 [main] ReportManager - May 18, 2024 11:05:19 PM org.openqa.selenium.bidi.Connection send
+[WARN ] 2024-05-18 23:05:19.916 [main] ReportManager - INFO: -> {
+[WARN ] 2024-05-18 23:05:19.916 [main] ReportManager -   "params": {
+[WARN ] 2024-05-18 23:05:19.916 [main] ReportManager -     "events": [
+[WARN ] 2024-05-18 23:05:19.916 [main] ReportManager -     ]
+[WARN ] 2024-05-18 23:05:19.916 [main] ReportManager -   },
+[WARN ] 2024-05-18 23:05:19.916 [main] ReportManager -   "method": "session.unsubscribe",
+[WARN ] 2024-05-18 23:05:19.917 [main] ReportManager -   "id": 3
+[WARN ] 2024-05-18 23:05:19.917 [main] ReportManager - }
+[INFO ] 2024-05-18 23:05:20.655 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-05-18 23:05:20.658 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-05-18 23:05:20.667 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-05-18 23:05:20.669 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
